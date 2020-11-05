@@ -1,0 +1,267 @@
+.navbar-light
+{
+    background: #fff;
+    box-shadow: 5px 5px 12px #000;
+}
+#menu ul li a
+{
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition-duration: 0.2s;
+}
+#menu ul li a:hover
+{
+    color: #00cc00;
+    border-bottom:  solid #00cc00;
+    border-width: .1rem;
+}
+.active
+{
+    color: #00cc00 !important;
+    border-bottom: .1rem solid #00cc00;
+}
+#header-logo h1 a
+{
+    color: #000000;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition-duration: 0.5s;
+    
+}
+#header-logo h1 a:hover
+{
+    color: #00cc00;
+}
+#banner
+{
+    background: url('../images/header.jpeg') no-repeat 0 0;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+#banner:before
+{
+    background: rgba(26, 26, 26, 0.8);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+#banner h1
+{
+    color: #fff;
+}
+.banner-title
+{
+    margin-top: 16rem;
+    margin-bottom: 13rem;
+}
+.banner-button
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0;
+    border-width: 1.2px;
+    background: transparent;
+    border-color: #fff;
+    transition-duration: 0.3s;
+}
+#banner-btn a.banner-button
+{
+    margin-right: 1rem;
+}
+.banner-button:hover
+{
+    background: #fff;
+    color: #000000;
+    border-color: #fff;
+}
+#banner-btn
+{
+    margin-top: 2rem;
+}
+.section
+{
+    margin: 50px 0;
+}
+.headings
+{
+    text-align: center;
+}
+.headings::after
+{
+    content: "";
+    background-color: #00cc00;
+    display: block;
+    height: 3px;
+    width: 120px;
+    margin: 10px auto;
+}
+.col-md-12 p
+{
+    margin: 3.2rem auto;
+    display: block;
+    width: 40rem;
+    color: grey;
+    text-align: center;
+}
+h4.card-title
+{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.01rem;
+}
+p.card-body
+{
+    text-align: center;
+    color: grey;
+}
+.card
+{
+    width: 18rem;
+}
+div#features
+{
+    padding-left: 3.2rem;
+}
+#like-section
+{
+    background: url('../images/like.jpeg') no-repeat 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.like-button
+{
+    background-color: #b30000;
+    padding: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0;
+    border-width: 1.2px;
+    border-color: #b30000;
+    transition-duration: 0.3s;
+    color: #fff;
+}
+.like-button:hover
+{
+    background-color: #990000;
+    color: #fff;
+}
+#like-content
+{
+    margin: 80px 45px;
+
+}
+#like-content h3, p
+{
+    color: #fff;
+}
+.col-md-4 p
+{
+    color: grey;
+}
+#services div.col-md-4
+{
+    padding: 30px;
+}
+#services div.col-md-4 h2
+{
+    color: #00cc00;
+    font-size: 32px;
+    font-weight: bold;
+}
+#join
+{
+    background: url('../images/join.jpg') no-repeat 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 70px 0;
+}
+#join-details
+{
+    padding-top: 20px;
+}
+#join-details h1
+{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+#join-details a
+{
+    text-decoration: none;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.btn-contact
+{
+    background-color: #000000;
+    color: #fff;
+    border-color: #fff;
+    font-size: 14px;
+    padding: 8px;
+    transition-duration: 0.2s;
+    margin-left: 3px;
+}
+.btn-contact:hover
+{
+    background-color: #fff;
+    color: #000000;
+    border-color: #000000;
+}
+#contact-section h1, h3
+{
+    margin-bottom: 26px;
+}
+input
+{
+    width: 20rem;
+}
+#social-contact a
+{
+    color: black;
+    margin: 30px 8px;
+    font-size: 1.4rem;
+}
+.fa-facebook:hover
+{
+    color: #3B5998;
+}
+.fa-twitter:hover
+{
+    color: #55ACEE;
+}
+.fa-instagram:hover
+{
+    color: #ff3385;
+}
+.fa-youtube:hover
+{
+    color: #ED1C16;
+}
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-youtube
+{
+    transition-duration: 0.2s;
+}
+#footer-section
+{
+    border-top: 0.8px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-color: #eee;
+    border-style: solid;
+    padding-top: 4.5px;
+    padding-bottom: 0;
+}
+#footer-section p
+{
+    font-size: 14px;
+    font-weight: bold;
+}
